@@ -1,0 +1,31 @@
+<section>
+    <!-- Table 1 -->
+    <div class="table table-1">
+        <div class="flex-row heading font-14">
+            <p class="width-70">
+                Product
+            </p>
+            <p class="width-30">
+                Earning
+            </p>
+        </div>
+
+        <div class="body">
+            <!-- row -->
+            <div class="flex-row row" *ngFor="let product of prodyctList">
+                <!-- Column 1 -->
+                <div class="flex-row width-70">
+                    <span class="material-icons icon">
+                        whatshot
+                    </span>
+                    <div>
+                        <p class="row-text"> {{ product.name }} </p>
+                        <p class="tag"> {{ product.app }} </p>
+                    </div>
+                </div>
+                <!-- Column 2 -->
+                <div class="row-text width-30"> {{ product.earnings | currency }} </div>
+            </div>
+        </div>
+    </div>
+</section>

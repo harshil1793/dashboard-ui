@@ -1,0 +1,73 @@
+section div{
+    margin-right: 20px;
+}
+
+/* General */
+.flex-row {
+    display: flex;
+}
+
+p {
+    margin: 0;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-content-c {
+    justify-content: center;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.card-info {
+    margin-left: 15px;
+}
+
+.card {
+    border-radius: 18px;
+    width: 190px;
+    padding: 20px;
+    box-shadow: 0 0 15px 0 rgba(17,22,26,.16), 0 2px 4px 0 rgba(17,22,26,.08), 0 4px 8px 0 rgba(17,22,26,.08);
+}
+/* General */
+
+/* Purple card */
+.purple-card {
+    background-color: #5F62B1;
+    color: #fff;
+    font-weight: 500;
+}
+.purple-card .icon {
+    color: #A5A7DF;
+    font-size: 48px;
+}
+.purple-card .tag {
+    color: #A5A7DF;
+}
+/* Purple card */
+
+
+/* White card */
+.white-card {
+    background-color: #fff;
+    color: #222464;
+    font-weight: 500;
+}
+.white-card .icon {
+    color: #5F62B1;
+    font-size: 48px;
+}
+.white-card .tag {
+    color: #aaa;
+}
+/* White card */
+
